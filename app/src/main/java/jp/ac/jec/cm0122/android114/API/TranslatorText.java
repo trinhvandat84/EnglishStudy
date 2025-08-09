@@ -14,7 +14,7 @@ import okhttp3.RequestBody;
 import okhttp3.Response;
 
 public class TranslatorText {
-    private static String key = "Ah5zghh8ZDp7oSy0HwIDcf0NrTRGfAdC71JgQCoBOOrfod6wPrkhJQQJ99BBACxCCsyXJ3w3AAAbACOGxbW7";
+    private static String key = "";
     public String endpoint = "https://api.cognitive.microsofttranslator.com";
     public String route = "/translate?api-version=3.0&from=en&to=ja";
     public String url = endpoint.concat(route);
