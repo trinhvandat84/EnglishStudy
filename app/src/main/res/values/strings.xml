@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Android114</string>
+    <!--    <string name="question_number">%d問目/全%d問中</string>-->
+    <string name="element_text">message</string>
+</resources>

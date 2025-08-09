@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="10dp"
+    android:layout_marginTop="8dp"
+    android:minHeight="48dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:padding="10dp"
+        android:background="#B4CAEFEB"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txtEnglish"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="hello" />
+
+            <ImageButton
+                android:id="@+id/btnMore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?android:attr/selectableItemBackgroundBorderless"
+                android:focusable="false"
+                android:clickable="true"
+                app:srcCompat="@drawable/more_img"/>
+
+
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:id="@+id/txtPronunciation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="/həˈləʊ/" />
+
+        <TextView
+            android:id="@+id/txtMeaning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="こんにちは" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "298879229473",
+    "project_id": "englishstudy-95c35",
+    "storage_bucket": "englishstudy-95c35.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298879229473:android:85d7dcf8074cea7a970d60",
+        "android_client_info": {
+          "package_name": "jp.ac.jec.cm0122.android114"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeMNHTVxU0TQ2OTEWSpVa9KkdANv3gCT0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
